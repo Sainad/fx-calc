@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {CalcStore} from './services/store';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { CURRENCY_URL } from './Data/data.js';
+import { CURRENCY_URL } from './Data/data';
 
 @Component({
   selector: 'app-root',
